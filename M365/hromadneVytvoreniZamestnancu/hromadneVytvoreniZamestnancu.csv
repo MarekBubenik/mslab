@@ -1,0 +1,3 @@
+﻿version:v1.0,,,,,,,,,,,,,,,,
+Název [displayName],Uživatelské jméno [userPrincipalName],Počáteční heslo [passwordProfile],Zablokovat přihlášení [accountEnabled],Jméno [givenName],Příjmení [surname],Název úlohy [jobTitle],Oddělení [department],Místo využívání [usageLocation],Ulice [streetAddress],Kraj [state],Země nebo oblast [country],Kancelář [physicalDeliveryOfficeName],Město [city],PSČ [postalCode],Telefon do kanceláře [telephoneNumber],Mobilní telefon [mobile]
+Jaroslav Pířivý,jaroslav_pirivy@mblab.cloud,T#D8676#H63,Ne,Jaroslav,Pířivý,Manager,Marketing,CZ,Dobrá 53,Středočeský kraj,Česká republika,B-536,Praha,142 00,363,728 666 999
