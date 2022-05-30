@@ -15,7 +15,7 @@ SELECT MIN(Rate) AS PayRate FROM HumanResources.EmployeePayHistory;
 
 SELECT * FROM Production.ProductCostHistory WHERE (StartDate = '2013-05-30 00:00:00.000' AND StandardCost >= 200.00) OR ProductID > 800;
 
-SELECT * FROM Production.ProductCostHistory WHERE ProductID in (802,803,820,900);
+SELECT * FROM Production.ProductCostHistory WHERE ProductID IN (802,803,820,900);
 
 SELECT * FROM Production.ProductCostHistory WHERE EndDate is Null;
 
