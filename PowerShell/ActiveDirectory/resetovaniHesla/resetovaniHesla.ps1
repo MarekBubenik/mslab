@@ -3,6 +3,9 @@
 # When: 2022/06/22
 # How: & .\resetovaniHesla.ps1 jmeno_prijmeni
 
+# We need Active Directory module
+Import-Module ActiveDirectory
+
 # Grab the argument and set it as the variable $username
 $username=$args[0]
 
