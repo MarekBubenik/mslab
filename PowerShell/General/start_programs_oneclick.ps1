@@ -11,6 +11,6 @@ $coreApps = @(
 $coreApps | ForEach-Object { Start-Process $_ }
 
 # Start Teams
-# Separated it because Teams being a b*tch and was throwing an error in %
+# Separated it because Teams is being a b*tch and was throwing an error in %
 Start-Process "C:\Users\$env:username\Appdata\Local\Microsoft\Teams\Update.exe" -ArgumentList '--processStart "Teams.exe"'
 
