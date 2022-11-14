@@ -11,8 +11,8 @@
 Set-ExecutionPolicy RemoteSigned
 
 #region - Network configuration
-New-NetIPAddress -InterfaceAlias "Ethernet0" -IPAddress "192.168.254.2" -PrefixLength 24 -DefaultGateway "192.168.254.1"
-Set-DnsClientServerAddress -InterfaceAlias "Ethernet0" -ServerAddresses "192.168.254.2","192.168.254.1", "8.8.8.8"
+New-NetIPAddress -InterfaceAlias "Ethernet0" -IPAddress "192.168.80.2" -PrefixLength 24 -DefaultGateway "192.168.80.1"
+Set-DnsClientServerAddress -InterfaceAlias "Ethernet0" -ServerAddresses "192.168.80.2", "8.8.8.8", "1.1.1.1"
 
 #endregion
 
